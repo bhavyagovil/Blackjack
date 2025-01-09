@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        Card card = new Card(Suit.CLUBS, Rank.KING);
+        System.out.println(card.toString());
     }
 }
